@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-const { Command } = require("commander");
+import { Command } from "commander";
 const program = new Command();
-const pkg = require("../package.json");
+import pkg from "../package.json" assert { type: "json" };
 
-program.version(pkg.version).parse(process.argv);
-console.log("Hello from coindex");
+program
+  .version(pkg.version)
+  .command("key", "Manage API Key -- https://coingecko.com")
+  .parse(process.argv);
