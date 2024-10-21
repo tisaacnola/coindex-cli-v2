@@ -1,6 +1,7 @@
 import inquirer from "inquirer";
 import colors from "colors";
 import KeyManager from "../lib/KeyManager.js";
+import isRequired from "../utils/validation.js";
 
 const key = {
   async set() {
@@ -10,6 +11,7 @@ const key = {
         type: "input",
         name: "key",
         message: "Enter API key ".green + "https://coingecko.com",
+        validate: isRequired,
       },
     ]);
 
