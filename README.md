@@ -13,7 +13,7 @@ Register an API key at https://coingecko.com
 ```
 npm install
 
-npm link
+npm link (if on a mac use sudo)
 ```
 
 ## Commands
