@@ -34,7 +34,6 @@ const key = {
   remove() {
     try {
       const keyManager = new KeyManager();
-      console.log(keyManager, "1");
       keyManager.deleteKey();
       console.log("Key removed".blue);
 
