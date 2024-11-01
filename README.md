@@ -6,7 +6,7 @@ This is an updated version of Brad Travesty's Command line interface written in 
 
 Original CLI github: https://github.com/bradtraversy/coindex-cli
 
-Register an API key at https://coingecko.com
+Register a demo API key at https://coingecko.com
 
 ## Usage
 

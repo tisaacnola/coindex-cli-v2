@@ -34,9 +34,11 @@ const key = {
   remove() {
     try {
       const keyManager = new KeyManager();
+      console.log(keyManager, "1");
       keyManager.deleteKey();
       console.log("Key removed".blue);
-      return key;
+
+      return;
     } catch (error) {
       console.error(error.message.red);
     }
