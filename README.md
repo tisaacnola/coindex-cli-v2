@@ -1,8 +1,10 @@
-# Coindex CLI
+# Coindex CLI V2
 
-Due to sunsetting on the nomics api and Inquirer.js moving from Commonjs to ES6 modules
+Due to sunsetting of the nomics api and Inquirer.js moving from Commonjs to ES6 modules
 
 This is an updated version of Brad Travesty's Command line interface written in Node.js to check cryptocurrency prices
+
+Original CLI github: https://github.com/bradtraversy/coindex-cli
 
 Register an API key at https://coingecko.com
 
